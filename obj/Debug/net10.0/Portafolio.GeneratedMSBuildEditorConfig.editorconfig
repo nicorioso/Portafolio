@@ -26,10 +26,6 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9BcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/nicorioso/Projects/Projects/Portafolio/Components/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Db3VudGVyLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
 [/home/nicorioso/Projects/Projects/Portafolio/Components/Pages/Error.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9FcnJvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -42,12 +38,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Ob3RGb3VuZC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/nicorioso/Projects/Projects/Portafolio/Components/Pages/Weather.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9XZWF0aGVyLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
 [/home/nicorioso/Projects/Projects/Portafolio/Components/Routes.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9Sb3V0ZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/nicorioso/Projects/Projects/Portafolio/Components/Sections/SectionTitle.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9TZWN0aW9ucy9TZWN0aW9uVGl0bGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/nicorioso/Projects/Projects/Portafolio/Components/Sections/SkillBadge.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9TZWN0aW9ucy9Ta2lsbEJhZGdlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/nicorioso/Projects/Projects/Portafolio/Components/_Imports.razor]
@@ -65,3 +65,43 @@ build_metadata.AdditionalFiles.CssScope = b-ynlwyoa1nb
 [/home/nicorioso/Projects/Projects/Portafolio/Components/Layout/ReconnectModal.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvUmVjb25uZWN0TW9kYWwucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-68h6jwqgqf
+
+[/home/nicorioso/Projects/Projects/Portafolio/Components/Sections/AboutSection.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9TZWN0aW9ucy9BYm91dFNlY3Rpb24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-5gzdhb5i6g
+
+[/home/nicorioso/Projects/Projects/Portafolio/Components/Sections/ContactSection.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9TZWN0aW9ucy9Db250YWN0U2VjdGlvbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-brsiubrbfb
+
+[/home/nicorioso/Projects/Projects/Portafolio/Components/Sections/EducationSection.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9TZWN0aW9ucy9FZHVjYXRpb25TZWN0aW9uLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-392txj9sya
+
+[/home/nicorioso/Projects/Projects/Portafolio/Components/Sections/ExperienceSection.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9TZWN0aW9ucy9FeHBlcmllbmNlU2VjdGlvbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-2o2lo458y3
+
+[/home/nicorioso/Projects/Projects/Portafolio/Components/Sections/HeroSection.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9TZWN0aW9ucy9IZXJvU2VjdGlvbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-3w4g7jn0me
+
+[/home/nicorioso/Projects/Projects/Portafolio/Components/Sections/PortfolioFooter.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9TZWN0aW9ucy9Qb3J0Zm9saW9Gb290ZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-q6kgdyz6t8
+
+[/home/nicorioso/Projects/Projects/Portafolio/Components/Sections/PortfolioNavbar.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9TZWN0aW9ucy9Qb3J0Zm9saW9OYXZiYXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-y9s4g9761z
+
+[/home/nicorioso/Projects/Projects/Portafolio/Components/Sections/ProjectCard.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9TZWN0aW9ucy9Qcm9qZWN0Q2FyZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-g8wzz5udyt
+
+[/home/nicorioso/Projects/Projects/Portafolio/Components/Sections/ProjectsSection.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9TZWN0aW9ucy9Qcm9qZWN0c1NlY3Rpb24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-0pg5mwfiqm
+
+[/home/nicorioso/Projects/Projects/Portafolio/Components/Sections/SkillsSection.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9TZWN0aW9ucy9Ta2lsbHNTZWN0aW9uLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-qwguh30qqn
