@@ -1,0 +1,31 @@
+# Compilación y restauración de .NET
+[Bb]in/
+[Oo]bj/
+[Aa]rtifacts/
+
+# Archivos de usuario e IDE
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Archivos temporales y logs
+*.log
+*.tmp
+*.temp
+
+# Secretos y configuración local (mantener appsettings.json versionado)
+appsettings.*.local.json
+secrets.json
+*.pfx
+*.p12
+*.key
+.env
+.env.*
+!.env.example
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
