@@ -1,0 +1,11 @@
+<div class="section-heading mb-4 mb-lg-5">
+    <p class="eyebrow mb-2">@Eyebrow</p>
+    <h2 class="section-title mb-0">@Title</h2>
+    @if (!string.IsNullOrWhiteSpace(Subtitle)) { <p class="text-secondary mt-3 mb-0">@Subtitle</p> }
+</div>
+
+@code {
+    [Parameter, EditorRequired] public string Title { get; set; } = "";
+    [Parameter] public string Eyebrow { get; set; } = "";
+    [Parameter] public string? Subtitle { get; set; }
+}

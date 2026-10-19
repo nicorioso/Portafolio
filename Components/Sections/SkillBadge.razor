@@ -1,0 +1,3 @@
+<span class="skill-badge"><span>@Skill.Name</span>@if (Skill.Level is not null) { <span class="skill-level">@Skill.Level</span> }</span>
+
+@code { [Parameter, EditorRequired] public Skill Skill { get; set; } = default!; }

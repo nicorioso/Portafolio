@@ -1,7 +1,22 @@
-﻿@page "/"
+@page "/"
 
-<PageTitle>Home</PageTitle>
+<PageTitle>@PortfolioData.PageTitle</PageTitle>
+<HeadContent>
+    <meta name="description" content="@PortfolioData.MetaDescription" />
+    <meta property="og:title" content="@PortfolioData.PageTitle" />
+    <meta property="og:description" content="Conoce mis proyectos, experiencia y formación en desarrollo de software." />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="es_CO" />
+</HeadContent>
 
-<h1>Hello, world!</h1>
-
-Welcome to your new app.
+<PortfolioNavbar />
+<main id="contenido">
+    <HeroSection />
+    <AboutSection />
+    <SkillsSection />
+    <ExperienceSection />
+    <ProjectsSection />
+    <EducationSection />
+    <ContactSection />
+</main>
+<PortfolioFooter />

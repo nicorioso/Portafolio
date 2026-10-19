@@ -1,0 +1,9 @@
+<section id="formacion" class="section-block section-anchor reveal-section">
+    <div class="container content-narrow">
+        <SectionTitle Eyebrow="@PortfolioData.EducationEyebrow" Title="@PortfolioData.EducationTitle" />
+        <div class="row g-3">@foreach (var item in PortfolioData.Education)
+        {
+            <div class="col-md-6"><article class="education-card h-100"><div class="education-icon"><i class="bi bi-mortarboard" aria-hidden="true"></i></div><div><h3>@item.Title</h3><p class="text-secondary mb-1">@item.Institution · @item.Period</p><span class="text-accent small">@item.Status</span></div></article></div>
+        }</div>
+    </div>
+</section>

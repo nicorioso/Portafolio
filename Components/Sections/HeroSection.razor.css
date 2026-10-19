@@ -1,0 +1,6 @@
+.hero-title { max-width: 760px; }
+.hero-role { font-weight: 600; }
+.hero-copy { max-width: 600px; }
+.hero-photo { width: min(72vw, 310px); aspect-ratio: 1; border-radius: 50%; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: .5rem; border: 1px solid var(--border); background: radial-gradient(circle at 50% 35%, #1c2639, #111827 68%); color: var(--text-muted); box-shadow: 0 0 70px rgba(59,130,246,.08); }
+.hero-photo span { font-size: 5rem; font-weight: 800; letter-spacing: -.08em; color: var(--accent-light); }
+.hero-photo small { font-size: .8rem; }

@@ -1,0 +1,6 @@
+<section id="proyectos" class="section-block section-anchor reveal-section surface-section">
+    <div class="container">
+        <SectionTitle Eyebrow="@PortfolioData.ProjectsEyebrow" Title="@PortfolioData.ProjectsTitle" Subtitle="@PortfolioData.ProjectsSubtitle" />
+        <div class="row g-4">@foreach (var project in PortfolioData.Projects) { <div class="col-md-6"><ProjectCard Project="project" /></div> }</div>
+    </div>
+</section>

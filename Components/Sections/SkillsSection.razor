@@ -1,0 +1,14 @@
+<section id="habilidades" class="section-block section-anchor reveal-section surface-section">
+    <div class="container">
+        <SectionTitle Eyebrow="@PortfolioData.SkillsEyebrow" Title="@PortfolioData.SkillsTitle" Subtitle="@PortfolioData.SkillsSubtitle" />
+        <div class="row g-3">
+            @foreach (var group in PortfolioData.SkillGroups)
+            {
+                <div class="col-md-6 col-xl-3"><article class="skill-group h-100">
+                    <h3>@group.Title</h3>
+                    <div class="d-flex flex-wrap gap-2">@foreach (var skill in group.Skills) { <SkillBadge Skill="skill" /> }</div>
+                </article></div>
+            }
+        </div>
+    </div>
+</section>

@@ -1,0 +1,8 @@
+<section id="sobre-mi" class="section-block section-anchor reveal-section">
+    <div class="container content-narrow">
+        <SectionTitle Eyebrow="@PortfolioData.AboutEyebrow" Title="@PortfolioData.AboutTitle" />
+        <div class="about-copy">
+            @foreach (var paragraph in PortfolioData.AboutParagraphs) { <p>@paragraph</p> }
+        </div>
+    </div>
+</section>

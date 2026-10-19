@@ -1,0 +1,8 @@
+.contact-card { overflow: hidden; border: 1px solid var(--border); border-radius: 16px; background: var(--surface); }
+.contact-item { display: flex; align-items: center; gap: 1rem; padding: 1rem 1.15rem; color: var(--text); text-decoration: none; }
+.contact-item + .contact-item { border-top: 1px solid var(--border); }
+.contact-item[href]:hover { background: var(--surface-hover); }
+.contact-item small, .contact-item strong { display: block; }
+.contact-item small { color: var(--text-muted); margin-bottom: .15rem; }
+.contact-item strong { font-size: .95rem; }
+.contact-icon { color: var(--accent-light); font-size: 1.2rem; width: 28px; text-align: center; }

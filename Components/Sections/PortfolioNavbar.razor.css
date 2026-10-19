@@ -1,0 +1,3 @@
+.navbar-brand { letter-spacing: -.03em; }
+.nav-link { font-size: .9rem; }
+.nav-link.active { color: var(--accent-light); }
